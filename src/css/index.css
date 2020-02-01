@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.offer{
+  background-color: rgba(0, 0, 0, 0.507) !important;
+  
+}
+.offer h5{
+  margin-bottom: 2.75rem;
+  text-align: center !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+}
+.offer a{
+  background-color: rgba(0, 0, 0, 0.377);
+  border-color: rgba(0, 0, 0, 0);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.carousel-item img{
+opacity: .85;
+}
