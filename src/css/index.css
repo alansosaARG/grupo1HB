@@ -1,23 +1,28 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.offer{
-  background-color: rgba(0, 0, 0, 0.507) !important;
-  
+.offer {
+  background-color: rgba(0, 0, 0, 0.705) !important;
+  /*-webkit-box-shadow: 25px 36px 79px 33px #000000; 
+  box-shadow: 25px 36px 79px 33px #000000;*/
 }
-.offer h5{
+
+.offer h5 {
   margin-bottom: 2.75rem;
   text-align: center !important;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
+  font-weight: 600;
 }
-.offer a{
+
+.offer a {
   background-color: rgba(0, 0, 0, 0.377);
   border-color: rgba(0, 0, 0, 0);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
-.carousel-item img{
-opacity: .85;
+
+.carousel-item img {
+  opacity: .8;
 }
