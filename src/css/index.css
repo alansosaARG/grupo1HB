@@ -5,9 +5,7 @@
 }
 
 .offer {
-  background-color: rgba(0, 0, 0, 0.705) !important;
-  /*-webkit-box-shadow: 25px 36px 79px 33px #000000; 
-  box-shadow: 25px 36px 79px 33px #000000;*/
+  background-color: rgba(0, 0, 0, 0.644) !important;
 }
 
 .offer h5 {
@@ -19,10 +17,44 @@
 
 .offer a {
   background-color: rgba(0, 0, 0, 0.377);
-  border-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.507);
   font-weight: 300;
 }
+.offer a:hover{
+  background-color: rgba(223, 223, 223, 0.795);
+  color: black;
+}
 
-.carousel-item img {
-  opacity: .8;
+.trans {
+  opacity: .7;
+}
+.imgOffer1{
+  background-image: url(/assets/master-card-visa-credit-card-gold.jpg);
+  height: 600px;
+  background-position: center;
+}
+.imgOffer2{
+  background-image: url(/assets/rolling.jpg);
+  height: 600px;
+  background-position: center;
+}
+.imgOffer3{
+  background-image: url(/assets/white-and-brown-concrete-bungalow-under-clear-blue.jpg);
+  height: 600px;
+  background-position: center;
+}
+.imgOffer4{
+  background-image: url(/assets/woman-holding-card-with-macbook-air-on-lap.jpg);
+  height: 600px;
+  background-position: center;
+}
+.imgOffer5{
+  background-image: url(/assets/beach-blue-sky-cheerful-clouds-452738.jpg);
+  height: 600px;
+  background-position: center;
+}
+.imgOffer6{
+  background-image: url(/assets/food-dinner-lunch-unhealthy.jpg);
+  height: 600px;
+  background-position: center;
 }
