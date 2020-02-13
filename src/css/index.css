@@ -5,7 +5,9 @@
 }
 
 .offer {
-  background-color: rgba(0, 0, 0, 0.644) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  -webkit-box-shadow: 3px 3px 11px 2px #000000;
+  box-shadow: 3px 3px 11px 2px #000000;
 }
 
 .offer h5 {
@@ -16,45 +18,67 @@
 }
 
 .offer a {
-  background-color: rgba(0, 0, 0, 0.377);
-  border-color: rgba(255, 255, 255, 0.507);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(51, 224, 237, 0.137);
   font-weight: 300;
 }
-.offer a:hover{
-  background-color: rgba(223, 223, 223, 0.795);
+
+.offer a:hover {
+  background-color: rgba(51, 225, 237, 0.7);
   color: black;
 }
 
 .trans {
   opacity: .7;
 }
-.imgOffer1{
-  background-image: url(/assets/master-card-visa-credit-card-gold.jpg);
+
+.imgOffer1 {
+  background-image: url(../../assets/master-card-visa-credit-card-gold.jpg);
   height: 600px;
   background-position: center;
+  background-size: cover;
 }
-.imgOffer2{
-  background-image: url(/assets/rolling.jpg);
+
+.imgOffer2 {
+  background-image: url(../../assets/rolling.jpg);
   height: 600px;
   background-position: center;
+  background-size: cover;
 }
-.imgOffer3{
-  background-image: url(/assets/white-and-brown-concrete-bungalow-under-clear-blue.jpg);
+
+.imgOffer3 {
+  background-image: url(../../assets/white-and-brown-concrete-bungalow-under-clear-blue.jpg);
   height: 600px;
   background-position: center;
+  background-size: cover;
 }
-.imgOffer4{
-  background-image: url(/assets/woman-holding-card-with-macbook-air-on-lap.jpg);
+
+.imgOffer4 {
+  background-image: url(../../assets/woman-holding-card-with-macbook-air-on-lap.jpg);
   height: 600px;
   background-position: center;
+  background-size: cover;
 }
-.imgOffer5{
-  background-image: url(/assets/beach-blue-sky-cheerful-clouds-452738.jpg);
+
+.imgOffer5 {
+  background-image: url(../../assets/group-of-people-standing-on-beach-shore-1427741.jpg);
   height: 600px;
   background-position: center;
+  background-size: cover;
 }
-.imgOffer6{
-  background-image: url(/assets/food-dinner-lunch-unhealthy.jpg);
+
+.imgOffer6 {
+  background-image: url(../../assets/food-dinner-lunch-unhealthy.jpg);
   height: 600px;
   background-position: center;
+  background-size: cover;
+}
+.circulo li{
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
 }
