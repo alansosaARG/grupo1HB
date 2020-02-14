@@ -1,5 +1,5 @@
 {
-  "name": "grupo1HB",
+  "name": "grupo1hb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/alansosaARG/grupo1HB.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
