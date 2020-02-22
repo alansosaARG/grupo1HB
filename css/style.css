@@ -1,0 +1,21 @@
+.fa-times-circle-o{
+
+    
+   color: red;
+   background: #ffffff;
+   border-radius: 50%;
+ 
+}
+
+
+.btn{
+    background: #33E1ED;
+}
+
+
+.fa-check-circle-o{
+    color: green;
+    background: white;
+    border-radius: 50%;
+  
+}
