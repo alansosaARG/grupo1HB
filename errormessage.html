@@ -18,7 +18,7 @@
   <div class="form-group row">
     <div class="col-sm-10">
          <button data-toggle="modal" data-target="#modalmensaje"type="button" class="btn btn-primary" 
-                onclick=''>Enviar</button>
+                onclick="mostrarMensaje('alerta')">Enviar</button>
     </div>
 </div>
 
@@ -31,11 +31,11 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <p>Tu Solicitud fue aceptada!</p>
+          <p id="idMensaje"> Tu Solicitud fue aceptada!</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Cancelar</button>
-          <button type="button" class="btn btn-primary"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Aceptar</button>
+          <button type="button" class="btn btn-primary"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Aceptar</button>
         </div>
       </div>
     </div>
@@ -51,6 +51,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
