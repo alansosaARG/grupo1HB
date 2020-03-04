@@ -1,3 +1,10 @@
+.btn{
+    background: #33E1ED;
+    -webkit-box-shadow: 32px 25px 45px 0px #000000; 
+     box-shadow: 32px 25px 45px 0px #000000;
+    
+}
+
 .fa-times-circle-o{
 
     
@@ -5,9 +12,6 @@
    
    border-radius: 50%;
  
-}
-.btn{
-    background: #33E1ED;
 }
 
 .fa-check-circle-o{
